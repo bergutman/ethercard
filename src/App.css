@@ -1,0 +1,102 @@
+body {
+  background-color: #EAEAEA;
+}
+
+.divider {
+  width: 50%;
+  margin: 2vh 0 2vh 25%;
+  height: 2px;
+  background-color: black;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.Wallet-Info {
+  background-color: #fff;
+  width: 50%;
+  margin-left: 25%;
+  padding: 2vh 5%;
+  box-sizing: border-box;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  border-radius: 5px;
+}
+
+.Wallet-Actions {
+  margin: 5vh 0;
+}
+
+.Add-Funds {
+  width: 50%;
+  background-color: #fff;
+  margin: 2vh 0 4vh 25%;
+  padding: 1%;
+  border-radius: 5px;
+  box-sizing: border-box;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+input {
+  margin: 0 2%;
+}
+
+.btn {
+  display: block;
+  width: 50%;
+  background-color: #fff;
+  margin: 0 0 0 25%;
+  padding: 1%;
+  border-radius: 5px;
+  box-sizing: border-box;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.btn-alt {
+  margin: 0 2%;
+  border-radius: 5px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.Import-Wallet {
+  background-color: #fff;
+  width: 50%;
+  margin-left: 25%;
+  margin-bottom: 2vh;
+  padding: 2vh 5%;
+  box-sizing: border-box;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  border-radius: 5px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
